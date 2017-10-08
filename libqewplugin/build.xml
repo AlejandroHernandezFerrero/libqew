@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- You may freely edit this file. See harness/README in the NetBeans platform -->
+<!-- for some information on what you could do (e.g. targets to override). -->
+<!-- If you delete this file and reopen the project it will be recreated. -->
+<project name="libqewplugin" default="netbeans" basedir=".">
+    <description>Builds, tests, and runs the project libqewplugin.</description>
+    <import file="nbproject/build-impl.xml"/>
+
+    <target name="release">
+        <copy todir="${cluster}/modules/ext"
+              file="release/modules/ext/libqew.jar"/>
+        <copy todir="${cluster}/modules/ext/sources"
+              file="release/modules/ext/sources/libqew-sources.zip"/>
+        <copy todir="${cluster}/modules/ext/docs"
+              file="release/modules/ext/docs/libqew-javadoc.zip"/>
+    </target>
+
+</project>

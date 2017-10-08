@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library PUBLIC "-//NetBeans//DTD Library Declaration 1.0//EN" "http://www.netbeans.org/dtds/library-declaration-1_0.dtd">
+<library version="1.0">
+    <name>libqew</name>
+    <type>j2se</type>
+    <localizing-bundle>libqewplugin.Bundle</localizing-bundle>
+    <volume>
+        <type>classpath</type>
+        <resource>nbinst:/modules/ext/libqew.jar</resource>
+    </volume>
+    <volume>
+        <type>src</type>
+        <resource>nbinst:/modules/ext/sources/libqew-sources.zip</resource>
+    </volume>
+    <volume>
+        <type>javadoc</type>
+        <resource>nbinst:/modules/ext/docs/libqew-javadoc.zip</resource>
+    </volume>
+</library>

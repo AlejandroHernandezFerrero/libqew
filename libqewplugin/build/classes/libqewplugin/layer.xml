@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="FormDesignerPalette">
+        <folder name="libqew">
+            <attr name="displayName" bundlevalue="libqewplugin.Bundle#FormDesignerPalette/libqew"/>
+            <attr name="position" intvalue="150"/>
+            <file name="StackPanel.palette_item" url="StackPanel.xml">
+                <attr name="position" intvalue="100"/>
+            </file>
+            <file name="TabsPanel.palette_item" url="TabsPanel.xml">
+                <attr name="position" intvalue="200"/>
+            </file>
+            <file name="TreeViewPanel.palette_item" url="TreeViewPanel.xml">
+                <attr name="position" intvalue="300"/>
+            </file>
+            <file name="TreeNodePanel.palette_item" url="TreeNodePanel.xml">
+                <attr name="position" intvalue="400"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Templates">
+        <folder name="libqew">
+            <file name="StackPanel.java" url="StackPanel_java">
+                <attr name="displayName" stringvalue="StackPanel"/>
+                <attr name="template" boolvalue="true"/>
+                <attr name="instantiatingWizardURL" urlvalue="nbresloc:/libqewplugin/StackPanel.html"/>
+                <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/libqewplugin/StackPanel.png"/>
+                <attr name="instantiatingIterator" methodvalue="org.netbeans.modules.form.wizard.TemplateWizardIterator.create"/>
+                <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+                <attr name="templateCategory" stringvalue="java-forms"/>
+            </file>
+            <file name="StackPanel.form" url="StackPanel_form">
+                <attr name="template" boolvalue="true"/>
+            </file>
+            <file name="TabsPanel.java" url="TabsPanel_java">
+                <attr name="displayName" stringvalue="TabsPanel"/>
+                <attr name="template" boolvalue="true"/>
+                <attr name="instantiatingWizardURL" urlvalue="nbresloc:/libqewplugin/TabsPanel.html"/>
+                <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/libqewplugin/TabsPanel.png"/>
+                <attr name="instantiatingIterator" methodvalue="org.netbeans.modules.form.wizard.TemplateWizardIterator.create"/>
+                <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+                <attr name="templateCategory" stringvalue="java-forms"/>
+            </file>
+            <file name="TabsPanel.form" url="TabsPanel_form">
+                <attr name="template" boolvalue="true"/>
+            </file>
+            <file name="TreeViewPanel.java" url="TreeViewPanel_java">
+                <attr name="displayName" stringvalue="TreeViewPanel"/>
+                <attr name="template" boolvalue="true"/>
+                <attr name="instantiatingWizardURL" urlvalue="nbresloc:/libqewplugin/TreeViewPanel.html"/>
+                <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/libqewplugin/TreeViewPanel.png"/>
+                <attr name="instantiatingIterator" methodvalue="org.netbeans.modules.form.wizard.TemplateWizardIterator.create"/>
+                <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+                <attr name="templateCategory" stringvalue="java-forms"/>
+            </file>
+            <file name="TreeViewPanel.form" url="TreeViewPanel_form">
+                <attr name="template" boolvalue="true"/>
+            </file>
+            <file name="TreeNodePanel.java" url="TreeNodePanel_java">
+                <attr name="displayName" stringvalue="TreeNodePanel"/>
+                <attr name="template" boolvalue="true"/>
+                <attr name="instantiatingWizardURL" urlvalue="nbresloc:/libqewplugin/TreeNodePanel.html"/>
+                <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/libqewplugin/TreeNodePanel.png"/>
+                <attr name="instantiatingIterator" methodvalue="org.netbeans.modules.form.wizard.TemplateWizardIterator.create"/>
+                <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+                <attr name="templateCategory" stringvalue="java-forms"/>
+            </file>
+            <file name="TreeNodePanel.form" url="TreeNodePanel_form">
+                <attr name="template" boolvalue="true"/>
+            </file>
+            <file name="Frame.java" url="Frame_java">
+                <attr name="displayName" stringvalue="Frame"/>
+                <attr name="template" boolvalue="true"/>
+                <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>                
+                <attr name="instantiatingWizardURL" urlvalue="nbresloc:/libqewplugin/Frame.html"/>
+                <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/libqewplugin/Frame.png"/>
+                <attr name="instantiatingIterator" methodvalue="org.netbeans.modules.java.source.queries.api.TemplateWizardFactory.create"/>
+                <attr name="templateCategory" stringvalue="java-forms"/>
+                <attr name="weight" intvalue="100"/>
+            </file>
+            <file name="Frame.form" url="Frame_form">
+                <attr name="template" boolvalue="true"/>
+                <attr name="templateCategory" stringvalue="java-forms"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="org-netbeans-api-project-libraries">
+        <folder name="Libraries">
+            <file name="libqew.xml" url="libqew.xml"/>
+        </folder>
+    </folder>
+</filesystem>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="libqewplugin">
+    <module_version install_time="1507499954601" last="true" origin="installer" specification_version="1.0">
+        <file crc="95987551" name="config/Modules/libqewplugin.xml"/>
+        <file crc="1503225176" name="modules/ext/docs/libqew-javadoc.zip"/>
+        <file crc="2660069704" name="modules/ext/libqew.jar"/>
+        <file crc="2833812811" name="modules/ext/sources/libqew-sources.zip"/>
+        <file crc="113200851" name="modules/libqewplugin.jar"/>
+    </module_version>
+</module>
